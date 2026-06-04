@@ -62,3 +62,52 @@ console.log("is Student ? ",isStudent)
 console.log("Has Jobs ? ",isStudent)
 
 //null or undefined
+//specical types when value is not present
+console.log("****************null or undefinde****************")
+let emptyValue:null=null;
+console.log(emptyValue);
+//emptyValue=10; //type issue 
+//onsole.log(emptyValue)
+
+let notEmpty:undefined=undefined
+console.log(notEmpty);
+//let cost:number
+//console.log(cost) //undefined
+const empty:null=null;
+console.log(empty)
+
+//any
+//loses type script benifits and can store any type of data like java script
+//not recomended use only when you dont want type safety
+console.log("****************any type****************")
+let anyValue:any="Rahul";
+console.log(typeof anyValue)
+anyValue=10;
+console.log(typeof anyValue)
+console.log(anyValue)
+
+//union type-combine multiple type
+console.log("****************union type****************")
+let id:string|number
+id="ABC72"
+console.log(typeof id);
+console.log(id)
+id=50
+console.log(typeof(id))
+console.log(id)
+
+//void type
+//used for the function that does not return anthing
+//void is optional
+function show():void
+{
+    console.log("not returning anuy thing")
+}
+show();
+
+function sum(x:number , y:number):number
+{
+    return(x+y)
+}
+let sumofvalue=sum(10,20)
+console.log(sumofvalue)
