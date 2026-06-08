@@ -82,6 +82,7 @@ console.log(empty)
 console.log("****************any type****************")
 let anyValue:any="Rahul";
 console.log(typeof anyValue)
+console.log(anyValue)
 anyValue=10;
 console.log(typeof anyValue)
 console.log(anyValue)
@@ -101,7 +102,7 @@ console.log(id)
 //void is optional
 function show():void
 {
-    console.log("not returning anuy thing")
+    console.log("not returning any thing")
 }
 show();
 

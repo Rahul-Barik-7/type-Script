@@ -18,7 +18,7 @@ console.log("This is my 1st varibale program")
     {
         var message="var can be accessable!"    //accessing insde block scope
         console.log(message)
-    }cls
+    }
     console.log(message) //accessing inside function scope
 }
 varScope() */
@@ -80,7 +80,7 @@ console.log(z);
 // var allows re-declarations
 // let and const does't allows re declarations (making code safer)
 
-//Ex-1(var allows re-declaration) (this i the main reason so we avoid to use var bcz type script mainly for type safety but this is deviating that )
+//Ex-1(var allows re-declaration) (this is the main reason so we avoid to use var bcz type script mainly for type safety but this is deviating that )
 var city="Noida";
 var city="Delhi";
 console.log(city);
