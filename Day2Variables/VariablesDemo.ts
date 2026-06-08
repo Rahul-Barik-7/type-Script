@@ -100,7 +100,7 @@ console.log(city);
 // re-assignment is allowed for var and let but not allowed for const because const value is constant
 
 //Ex-1 (var re-assignment) -- allowed
-var empAge=50;
+var empAge=60;
 console.log(empAge);
 empAge=90;
 console.log(empAge);  
