@@ -5,7 +5,7 @@ if (divNumber % 2 === 0) {
         console.log("number is divisible by both 2 and 3")
     }
     else {
-        console.log("number is not divisible by both 2 and 3")
+        console.log("number is not divisible by both 2 but not by 3")
     }
 }
 else {
