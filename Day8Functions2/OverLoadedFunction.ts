@@ -19,7 +19,6 @@ console.log(getInfo(101));
 console.log(getInfo("Kitty"));
 
 
-
 //Example-2 (different number of parameters)
 //function signature
 function add(a: number, b: number): number;
@@ -72,5 +71,3 @@ function greet(input: (string | number | boolean)): (string | number | boolean) 
     }
 }
 console.log(greet(false));
-
-
