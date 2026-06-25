@@ -123,14 +123,3 @@ let myArray: Array<string> = ['a', 'b', 'c', 'd', 'e'];
 console.log("original myArray: ",myArray);
 let updatedToStringArray = myArray.toString();
 console.log("updatedToStringArray : ",updatedToStringArray);
-
-
-
-
-
-
-
-
-
-
-
