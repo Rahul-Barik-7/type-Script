@@ -2,7 +2,7 @@
 
 //Example-1
 //this the function that takes callback function as parameter
-function greetMessage(name: string, callback:(message: string) => void) {
+function greetMessage(name: string, callback:(message: string)=> void) {
     console.log(name);
     callback("Welcome to callback function"); //executing the callback function
 }

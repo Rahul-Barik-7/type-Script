@@ -9,7 +9,9 @@ var age = 30
 console.log(age)
 console.log("This is my 1st varibale program")
 
-//(1)Scope (functional Scope(var) and block scope(let,const)) ***********
+//(1)Scope 
+// var- function scope
+// let and const - block scope
 
 //Example-1 var(functional scope)
 /* function varScope()

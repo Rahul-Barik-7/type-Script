@@ -17,3 +17,4 @@ function displayDetails(id?: number, name?: string, email?: string)  //here ques
 //displayDetails(101, "Abhishek Chaturvedi", "abhishek@gmail.com");
 //console.log("=================================================")
 displayDetails(1, "Rahul Barik");  //passed partial params
+

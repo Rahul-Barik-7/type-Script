@@ -72,7 +72,7 @@ console.log(b1 || b2);
 console.log(!b1);
 console.log(!b2);
 
-//combinationo of logical and Relational operators 
+//combinations of logical and Relational operators 
 console.log("************combinationo of logical and Relational operator*************")
 console.log(20 > 10 || 10 > 5);
 console.log(20 > 10 && 10 > 20);

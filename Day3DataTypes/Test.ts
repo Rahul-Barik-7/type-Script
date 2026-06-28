@@ -1,4 +1,4 @@
-//Type script is Ststically Type Language
+//Type script is Statically Typed Language
 
 /* let x1:number=30;
 console.log(typeof(x1))

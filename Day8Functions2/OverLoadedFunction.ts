@@ -1,6 +1,6 @@
 //step1: write a signature of functions (a function without having a body called function signature )
 //step2: We need to implement a function
-//calling the functions
+//step3: calling the functions
 
 //Example-1 (different parameters type)
 function getInfo(id: number): string;

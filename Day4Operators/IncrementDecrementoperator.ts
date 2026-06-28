@@ -12,11 +12,11 @@ let x : number =10;
 //console.log(x);
 
 //post-increment
-/* 
-let res:number=x++;
+
+/* let res:number=x++;
 console.log(res); //10    here 1st value will be assigned to the varibale
-console.log(x); //11  here value is got increment 
-*/
+console.log(x); //11  here value is got increment  */
+
 
 //pre-increment
 /* 
