@@ -18,7 +18,7 @@ console.log("")
 console.log("==========push method==========");
 numbers.push(6);
 console.log("Updated Numbers Array", numbers);
-numbers.push(6, 7, 8);
+numbers.push(6, 7, 8, 9);
 console.log("Updated Numbers Array", numbers)
 
 //method-2 (pop())
@@ -29,6 +29,8 @@ console.log("==========pop method==========");
 let removeElement = fruits.pop();
 console.log("Updated Fruits Array : ", fruits)
 console.log("Removed Element : ", removeElement);
+let lastremovednumber = numbers.pop();
+console.log("Last removed Number: ", lastremovednumber);
 
 
 //method-3 (shift())
@@ -55,8 +57,8 @@ console.log("Updated Fruits list", fruits);
 //syntax- array.concat();
 console.log("")
 console.log("==========concatinated method==========");
-let concatArrayes=numbers.concat([1, 9],[10,11]);
-console.log("concatinated Arrays: ",concatArrayes)
+let concatArrayes = numbers.concat([1, 9], [10, 11]);
+console.log("concatinated Arrays: ", concatArrayes)
 
 //method-6 (slice())
 //Exract a section of an array
@@ -65,8 +67,8 @@ console.log("concatinated Arrays: ",concatArrayes)
 //exclussive means last provided value will not print (3-1=2) then 2nd index value will be printed
 console.log("")
 console.log("==========slice method==========");
-let extractedArray = fruits.slice(1,4);
-console.log("Afer slice: ", extractedArray);
+let extractedArray = fruits.slice(1, 4);
+console.log("After slice: ", extractedArray);
 
 
 //method-7 (splice())
@@ -76,7 +78,7 @@ console.log("Afer slice: ", extractedArray);
 console.log("")
 console.log("==========splice method (Example-1) ==========");
 console.log("Current Elements in fruits array: ", fruits);
-let removedElements = fruits.splice(1,3);
+let removedElements = fruits.splice(1, 3);
 console.log("Updated Fruits Array: After splice(1,3) : ", fruits);
 console.log("Removed Elements After Slice(1,3) : ", removedElements); //(1-index starting from , 3- removing 3 elements from 1st index)
 
@@ -89,7 +91,7 @@ console.log("After splice(1, 0, 'Pineapple', 'Grapes') : ", fruits);
 //Example-3 (deletion and added)
 console.log("==========splice method (Example-3) ==========");
 console.log(fruits);
-fruits.splice(1,2,"coconout", "cherry");
+fruits.splice(1, 2, "coconout", "cherry");
 console.log("Updated fruites list", fruits);
 
 //method-8 (indexof())
@@ -99,14 +101,14 @@ console.log("")
 console.log("==========indexof method==========");
 console.log(fruits.indexOf("cherry")); //2  //it will search eacg and every element
 console.log(fruits.indexOf("papaya")); //-1 because element is no found 
-console.log(fruits.indexOf("Mango",2 )); //in this scenario it will start searching from 2nd index 
+console.log(fruits.indexOf("Mango",3)); //in this scenario it will start searching from 2nd index 
 
 //method-9 (includes()) - it will check the element is exist or not 
 //retrun value will be true or false
 //syntax (fruits.indexOf(searchElement,from index))
 console.log("")
 console.log("==========includes method==========");
-console.log(fruits.includes("Mango",2)); //true
+console.log(fruits.includes("Mango", 2)); //true
 console.log(fruits.includes("Lemon"));
 
 
@@ -120,6 +122,6 @@ console.log(numbers.toString()); //2,3,4,5,6,6,7,8
 console.log("")
 
 let myArray: Array<string> = ['a', 'b', 'c', 'd', 'e'];
-console.log("original myArray: ",myArray);
+console.log("original myArray: ", myArray);
 let updatedToStringArray = myArray.toString();
-console.log("updatedToStringArray : ",updatedToStringArray);
+console.log("updatedToStringArray : ", updatedToStringArray);
