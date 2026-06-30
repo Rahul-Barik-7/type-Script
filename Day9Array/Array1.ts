@@ -9,7 +9,7 @@ Arrays in TypeScript
 - Arrays are an ordered collection of elements.
 */
 
-//Approach-1 (u )
+//Approach-1 (using literals/types )
 
 //declaration
 /* let names: string[] = [];
