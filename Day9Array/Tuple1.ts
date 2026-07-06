@@ -52,3 +52,8 @@ console.log("======get tule value using loop======");
 for (let i in singleStateList) {
     console.log(singleStateList[i]);
 }
+
+console.log("======get tule value using for each loop======");
+statesList.forEach(function(element,index){
+    console.log(index,element)
+})

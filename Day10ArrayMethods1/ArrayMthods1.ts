@@ -112,7 +112,7 @@ console.log(fruits.includes("Mango", 2)); //true
 console.log(fruits.includes("Lemon"));
 
 
-//method-10 (tostring()) - it will convert the arrey to normal string 
+//method-10 (tostring()) - it will convert the array to normal string 
 //syntax (fruits.toString())
 console.log("")
 console.log("==========toString method==========");
