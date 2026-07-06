@@ -1,0 +1,21 @@
+/* 
+
+Generally : Object is nothing but the properties and behaviour
+Technically : Object is nothing but it contains variable and methods
+In type-Script : Object is collection of key and value pairs same like properties and behaviour
+
+*/
+
+//Example: 
+//Employee - is a object
+//name, designation, sal, department - are the properties
+// and similarly Employee can get bonus(), 
+//can get empDetails()
+//We can set emoDetails()
+
+
+//Different Ways to create an object in both Type-Script and Java Script
+//(1) : Using Object type - directly define the value of variable (JS/TS) we won't specifies the type
+//(2) : Inline Type object - We also define the datatype of the keys (TS) here we specifies the type
+//(3) : using type aliases (JS/TS)
+//(4) : using the classes (JS ES16/TS)
