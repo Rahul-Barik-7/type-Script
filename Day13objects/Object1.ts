@@ -23,6 +23,7 @@ let student = {
     age: 26,
     state: "Bihar",
     contactNumber: "9878987898",
+    abcd : null,
 
     getDetails: function() {
         //console.log(this.name);
@@ -30,6 +31,7 @@ let student = {
     }
 }
 console.log(typeof(student)); //object
+console.log(typeof student.abcd)
 
 //accessing the objet varibales and method
 //Approach 1 (using . dot notation)

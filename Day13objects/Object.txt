@@ -17,5 +17,5 @@ In type-Script : Object is collection of key and value pairs same like propertie
 //Different Ways to create an object in both Type-Script and Java Script
 //(1) : Using Object type - directly define the value of variable (JS/TS) we won't specifies the type
 //(2) : Inline Type object - We also define the datatype of the keys (TS) here we specifies the type
-//(3) : using type aliases (JS/TS)
+//(3) : using type aliases (TS)
 //(4) : using the classes (JS ES16/TS)

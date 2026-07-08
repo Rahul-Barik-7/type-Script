@@ -22,7 +22,7 @@ console.log(typeof employee1); //object
 
 
 //in this approach we have one problem i.e (if you want to create employee object with same structure then we have to create multiple student object with along with structure)
-//this is the repeatative activity because, for every student object we need to repeate the same structurecls
+//this is the repeatative activity because, for every student object we need to repeate the same structure
 
 let employee2: {
     name: string,
