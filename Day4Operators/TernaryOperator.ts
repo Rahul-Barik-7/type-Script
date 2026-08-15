@@ -6,8 +6,8 @@
 let a:number=100;
 let b:number=200;
 
-let res:number=(a<b) ? a:b;
-//let res:any=(a>b) ? `Number is : ${a}`:`Number is : ${b}`;
+//let res:number=(a<b) ? a:b;
+let res:any=(a>b) ? `Number is : ${a}`:`Number is : ${b}`;
 console.log(res);
 
 let age:number=1;

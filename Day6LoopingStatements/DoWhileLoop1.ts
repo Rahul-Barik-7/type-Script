@@ -1,7 +1,7 @@
 // Do While Loop : it execute at least once before execution the condition
 
 //Example-1
- let i:number=10;
+ let i:number=1;
 // do{
 //     console.log(i)
 //     i++;
@@ -9,5 +9,5 @@
 
 do{
     console.log(i)
-    i--;
-}while(i>=1)
+    i++;
+}while(i<=10)

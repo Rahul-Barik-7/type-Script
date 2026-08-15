@@ -24,14 +24,14 @@ console.log(sum);
 //Example-3 (named function with rest params)
 //rest parameters restricts the number of values that you can pass to a function
 
-let sumOfNumbers: number = 0
+let sumOfNumbers: number = 0;
 function addNums(...nums: number[]) {
     for (let i = 0; i < nums.length; i++) {
         sumOfNumbers = sumOfNumbers + nums[i]
     }
     console.log(`Sum of Numbers is: ${sumOfNumbers}`)
 }
-addNums(10, 20, 30, 50, 30,60);
+addNums(10, 20);
 
 
 //Example-4 (named function rest params)

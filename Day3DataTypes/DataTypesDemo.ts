@@ -81,15 +81,15 @@ console.log(empty)
 //not recomended use only when you dont want type safety
 console.log("****************any type****************")
 let anyValue:any="Rahul";
-console.log(typeof anyValue)
-console.log(anyValue)
+console.log(typeof anyValue);
+console.log(anyValue);
 anyValue=10;
-console.log(typeof anyValue)
-console.log(anyValue)
+console.log(typeof anyValue);
+console.log(anyValue);
 
 //union type-combine multiple type
 console.log("****************union type****************")
-let id:string|number
+let id:string|number ;
 id="ABC72"
 console.log(typeof id);
 console.log(id)

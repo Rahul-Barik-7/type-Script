@@ -10,7 +10,7 @@ switch(expression)
 } 
 */
 
-let dayNumber:number=8;
+let dayNumber:number=3;
 
 switch(dayNumber)
 {

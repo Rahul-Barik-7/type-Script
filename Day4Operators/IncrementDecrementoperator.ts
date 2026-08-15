@@ -3,13 +3,13 @@
 
 
 let x : number =10;
-//x=x+1;
+x=x+1;
 //post-increment
-//x++;
-//console.log(x);
+// x++;
+// console.log(x);
 
-//++x; //pre-increment
-//console.log(x);
+// ++x; //pre-increment
+// console.log(x); 
 
 //post-increment
 
@@ -19,11 +19,11 @@ console.log(x); //11  here value is got increment  */
 
 
 //pre-increment
-/* 
+
 let res:number=++x;
 console.log(res);
 console.log(x);
-*/
+
 
 //post-decrement
 /*  
@@ -34,7 +34,7 @@ console.log(x);
 
 
 //pre-decrement
-let res:number=--x;
-console.log(res);
-console.log(x); 
+// let res:number=--x;
+// console.log(res);
+// console.log(x); 
 

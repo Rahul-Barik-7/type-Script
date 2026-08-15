@@ -30,15 +30,15 @@ varScope() */
 {
     if(true)
     {
-        let message1="let can be accessable!"    //accessing insde block scope
-        const message2="const can be accessable!"  //accessing insde block scope
+        let message1="let can be accessable!"    //accessing inside block scope
+        const message2="const can be accessable!"  //accessing inside block scope
         console.log(message1)
         console.log(message2)
     }
-    //console.log(message1) //unable to access let inside function scope
-    //console.log(message2) //unable to access const inside function scope
+    // console.log(message1) //unable to access let inside function scope
+    // console.log(message2) //unable to access const inside function scope
 }
-varScope()  */
+varScope() */
 
 //Example-2
 /* function scopeDiff() {
@@ -55,7 +55,7 @@ varScope()  */
     // console.log(num2); //not accessable
     // console.log(num3); //not accessable
 }
-scopeDiff() */
+scopeDiff(); */
 
 
 
@@ -88,9 +88,9 @@ var city="Delhi";
 console.log(city);
 
 //Ex-2(let not-allows re-declaration)
-//let state="UP"
-//let state="Odisha"
-//console.log(state);
+// let state="UP"
+// let state="Odisha"
+// console.log(state);
 
 //Ex-3(const not-allows re-declaration)
 //const empName="Sunny";
