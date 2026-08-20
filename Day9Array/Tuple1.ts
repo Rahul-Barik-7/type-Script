@@ -1,7 +1,5 @@
-/**
-* Tuples in TypeScript:
-* A tuple is a fixed-length array where each element has a specific type.
-* It helps in storing multiple fields of different data types together.
+/*
+A Tuple in TypeScript is used to store a fixed number of elements where each element can have a different data type and a predefined position. It is commonly used when the order and type of values are important, such as returning multiple values from a function or representing structured data like employee records, coordinates, or key-value pairs.
 */
 
 //Example-1 (Tuple with 2 values string , number)
@@ -48,7 +46,7 @@ console.log("======get specific index value from tuple======");
 let singleStateList = statesList[0]; 
 console.log(singleStateList[1]); //odisha
 
-console.log("======get tule value using loop======");
+console.log("======get tuple value using loop======");
 for (let i in singleStateList) {
     console.log(singleStateList[i]);
 }
