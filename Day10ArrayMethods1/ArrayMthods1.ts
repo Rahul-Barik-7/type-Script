@@ -96,7 +96,7 @@ console.log("Updated fruites list", fruits);
 
 //method-8 (indexof())
 //used to find the index of an element, if element not found then return -1
-//syntax (fruits.indexOf(searchElement)     or   fruits.indexOf(searchElement, startingIndex))
+//syntax (fruits.indexOf(searchElement) or fruits.indexOf(searchElement, startingIndex))
 console.log("")
 console.log("==========indexof method==========");
 console.log(fruits.indexOf("cherry")); //2  //it will search eacg and every element

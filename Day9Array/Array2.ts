@@ -4,9 +4,9 @@
 //Example-1(Search an element in an arrays using function)
 let empNums: Array<number> = [30, 23, 40];
 console.log("=======================Example-1=======================")
-function search(ele: number, empNums: number[]): boolean {
+function search(element: number, empNums: number[]): boolean {
     for (let i: number = 0; i < empNums.length; i++) {
-        if (ele === empNums[i]) {
+        if (element === empNums[i]) {
             return true;  //element found 
         }
     }

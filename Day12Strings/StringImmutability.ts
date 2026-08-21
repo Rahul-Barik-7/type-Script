@@ -3,7 +3,7 @@
 let randomNum=10;
 let res = randomNum + 5; 
 console.log(res); //15
-console.log(randomNum); // here randomNum does not change the original value, Because of this feature strig is immutable (this is applicable for string also)
+console.log(randomNum); // here randomNum does notiginal va change the orlue, Because of this feature strig is immutable (this is applicable for string also)
 
 let string1="Welcome";
 let modifiedString = string1.concat("to Typescript");

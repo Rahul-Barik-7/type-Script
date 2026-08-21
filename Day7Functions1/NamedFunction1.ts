@@ -14,7 +14,7 @@ function display(): void {
 display(); //calling function
 
 
-//Example-2 (named function with param and return the types)
+//Example-2 (pesnamed function with param and return the ty)
 function addNumbers(x: number, y: number): number {
     return x + y;
 }

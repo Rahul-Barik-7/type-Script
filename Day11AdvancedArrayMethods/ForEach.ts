@@ -1,6 +1,7 @@
 /*
 
-1. forEach() - Executes a functions once for each array element
+1. forEach() - Executes a functions once for each array element 
+   -Use it when you want to perform an action for each element.
 2. it takes function as parameter
 3. syntax: array.forEach(function(currentValue, index, array){})
 About 3 params:-
