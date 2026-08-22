@@ -6,10 +6,11 @@
        4.1 static propertis & methos are common or shared across all the objects 
        4.2 static propertis & methos can be accessed through class name directly
        4.3 static propertis & methos can be modified using any object
+       4.4 we can not use 'this' keyword for static properties, instaed we can use className
 */
 
 class Student {
-    readonly studentID: number; //readonly property (can be assigned once only inside the constructor and only once)
+    readonly studentID: number; //readonly property (can be assigned once only inside the constructor)
     studentName: string; //regular property
     studentEmail?: string; //optional property (can be undefined)
     static studentSchoolName: string = "DAV Public School" ; // static variable shared among all instances/objects 
