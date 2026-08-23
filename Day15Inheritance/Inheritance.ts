@@ -36,7 +36,7 @@ class Car {
         console.log(`${this.name}- ${this.color}- ${this.model}`);
     }
 }
-
+ 
 //child -1
 class Honda extends Car {
 
@@ -47,6 +47,7 @@ class Honda extends Car {
         this.year = year
     }
 
+    //method overriding
     start() {
         console.log("Honda Started..")
     }
@@ -67,6 +68,7 @@ class Maruti extends Car {
         this.year = year
     }
 
+    //method overriding 
     start() {
         console.log("Maruti Started..")
     }
@@ -91,7 +93,23 @@ honda.start();  //Honda Started..
 //so always whichever new method is overriden that will be executed, child class method will be executed
 
 honda.displayInfo(); // you can acces parent class method 
+honda.stop(); //Car stopped.. //parent class
+honda.yearOfManufacturing();  //Honda- Red- Honda City -2020  //child class
 
+
+//creating Maruti class object
+let maruti = new Maruti("Maruti", "White", "Maruti Suzuki", 2026);
+maruti.start(); //Maruti Started.. 
+maruti.displayInfo(); //Maruti- While- Maruti Suzuki
+maruti.stop(); //Car stopped..  from parent 
+maruti.yearOfManufacturing(); //Maruti- While- Maruti Suzuki -2026
+
+
+//parenmt class variable is holding child class object
+let car:Car = new Maruti("Maruti", "White", "Maruti Suzuki", 2026);
+car.displayInfo();
+car.start();  
+//car.yearOfManufacturing(); //cannot accessd because (Property 'yearOfManufacturing()' does not exist on type 'Car'.)
 
 
 
