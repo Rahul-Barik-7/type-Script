@@ -21,12 +21,12 @@ class Child extends Parent {
     num: number = 20;
 
     constructor() {
-        super();
         console.log("This is Child class constructor");
+        super();
     }
 
     show() {
-        console.log(this.num);
+        console.log(this.num);  
         console.log("This is show method from child class")
     }
 
