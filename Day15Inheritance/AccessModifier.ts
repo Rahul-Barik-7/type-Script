@@ -34,7 +34,7 @@ class Employee extends Person {
     showWmpDetails(){
         console.log(this.name); //this is public so we can access
         console.log(this.age); //this is protected so we can access in child class
-        console.log(this.accountNumber); // unable to access because Property 'accountNumber' is private and only accessible within class 'Person'.
+        //console.log(this.accountNumber); // unable to access because Property 'accountNumber' is private and only accessible within class 'Person'.
         console.log(this.empid); //able to acces because its a child class property & we are accesing inside the same class
     }
 }

@@ -1,0 +1,24 @@
+/* 
+    1. Interfaces in typescript is the way to define the structure of an object
+    2. it tells the compiler what properties and types an object should have
+    3. its like a blue print for an object
+
+    Abstract Method- it has only signature of the method (no implementation)
+
+    syntax: 
+    interface interfaceName {
+        properties
+        abstract methods
+    }
+    
+    * Regular properties
+    * Optional Properties
+    * Read only peoperties & function type
+    * Extending interfaces
+    * Class implements interface
+
+    - A class can extends another class
+    - A interface can extends another interface
+    - A class can implements another interface
+    - A interface can implement another class - this is no possible (reason : may be that class contains some method implementation but interface does not allow implementation)
+*/
